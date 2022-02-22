@@ -19,7 +19,7 @@ if (isset($_REQUEST['acao']) && $_REQUEST['acao'] == 'cotar'){
     $item->volumes = 1;
     $item->peso = 100;
     $item->altura = 15;
-    $item->comprimento = 10
+    $item->comprimento = 10;
     $item->largura = 5;
     $azul->item($item);
 
